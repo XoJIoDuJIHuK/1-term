@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Градиенты</title>
+    <style>
+        div {
+            display:inline-flex;
+            width:150px;
+            height:150px;
+            border: 3px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div style="background-image:linear-gradient(to bottom, blue, red)"></div>
+    <div style="background-image: repeating-linear-gradient(45deg, red 20px, blue 21px, blue 40px, red 41px, red 60px)"></div>
+    <div style="background-image:radial-gradient(lightgreen, darkgreen)"></div>
+    <div style="background-image:repeating-radial-gradient(darkgreen 0px, darkgreen 10px, yellow 11px, yellow 20px)"></div>
+    <div style="background-image:radial-gradient(lightgreen, darkgreen 50%, transparent), linear-gradient(blue, 50%, purple)"></div>
+    <div style="background-image:linear-gradient(to right, yellow, green 50%, transparent), linear-gradient(black 0%, black 25%, white 50%, white 75%, blue 79%, blue 84%, purple 93%)"></div>
+</body>
+</html>

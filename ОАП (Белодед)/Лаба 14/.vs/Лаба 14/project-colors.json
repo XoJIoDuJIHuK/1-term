@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f6d0b3ce-84e8-44d1-9ffb-be34cbdaa75f": {
+      "ProjectGuid": "f6d0b3ce-84e8-44d1-9ffb-be34cbdaa75f",
+      "DisplayName": "Лаба 14.1",
+      "ColorIndex": 0
+    },
+    "6c0e115e-e41e-4e0c-996c-409bcb641e29": {
+      "ProjectGuid": "6c0e115e-e41e-4e0c-996c-409bcb641e29",
+      "DisplayName": "Лаба 14.2",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

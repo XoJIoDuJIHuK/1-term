@@ -1,0 +1,33 @@
+﻿    div {
+        display: flex;
+        flex-wrap: wrap;
+        border: 1px solid black;
+        text-align: center;
+        justify-content: center;
+        margin: 2px 2px 2px 2px;
+    }
+
+    .container {
+        max-width: 1200px;
+        border: 0px;
+    }
+
+    .column_1 {
+        width: 100%;
+    }
+
+    .column_2 {
+        width: 32%;
+    }
+
+    .column_3 {
+        width: 49%;
+    }
+
+    figure, img {
+        width: 900px;
+    }
+
+    figcaption {
+        font-size: 24px;
+    }

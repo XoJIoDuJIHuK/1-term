@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl"
+href="xsl.xsl"?>
+<fac>
+	<spec>
+		<stud>Тараканов</stud>
+		<bel>5</bel>
+		<mat>9</mat>
+		<lin>2</lin>
+		<fiz>4</fiz>
+		<opi>6</opi>
+		<oaip>1</oaip>
+		<k9r>10</k9r>
+		<eng>5</eng>
+	</spec>
+	<spec>
+		<stud>Яшный</stud>
+		<bel>7</bel>
+		<mat>5</mat>
+		<lin>3</lin>
+		<fiz>9</fiz>
+		<opi>2</opi>
+		<oaip>0</oaip>
+		<k9r>4</k9r>
+		<eng>3</eng>
+	</spec>
+	<spec>
+		<stud>Каребо</stud>
+		<bel>9</bel>
+		<mat>3</mat>
+		<lin>6</lin>
+		<fiz>7</fiz>
+		<opi>2</opi>
+		<oaip>8</oaip>
+		<k9r>10</k9r>
+		<eng>5</eng>
+	</spec>
+</fac>

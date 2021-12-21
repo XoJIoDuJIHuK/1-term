@@ -1,0 +1,27 @@
+﻿Сборка начата 08.11.2021 13:34:24.
+Уровень детализации журнала: Normal.     1>Проект "D:\_УЧЁБА_\Лабораторные работы\ОПИ (Наркевич)\Лаба 6\Лаба 6\Лаба 6\Лаба 6.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\Лаба 6.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt yY1.cpp
+         yY1.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\_УЧЁБА_\Лабораторные работы\ОПИ (Наркевич)\Лаба 6\Лаба 6\Debug\Лаба 6.exe" /INCREMENTAL /ILK:"Debug\Лаба 6.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\_УЧЁБА_\Лабораторные работы\ОПИ (Наркевич)\Лаба 6\Лаба 6\Debug\Лаба 6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\_УЧЁБА_\Лабораторные работы\ОПИ (Наркевич)\Лаба 6\Лаба 6\Debug\Лаба 6.lib" /MACHINE:X86 Debug\6.obj
+         Debug\input.obj
+         Debug\output.obj
+         Debug\xX2.obj
+         Debug\yY2.obj
+         Debug\ZZZ.obj
+         Debug\xX1.obj
+         Debug\yY1.obj
+         Лаба 6.vcxproj -> D:\_УЧЁБА_\Лабораторные работы\ОПИ (Наркевич)\Лаба 6\Лаба 6\Debug\Лаба 6.exe
+       FinalizeBuildStatus:
+         Файл "Debug\Лаба 6.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Лаба 6.tlog\Лаба 6.lastbuildstate".
+     1>Сборка проекта "D:\_УЧЁБА_\Лабораторные работы\ОПИ (Наркевич)\Лаба 6\Лаба 6\Лаба 6\Лаба 6.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:01.34

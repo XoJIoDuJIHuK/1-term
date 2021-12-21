@@ -1,0 +1,5 @@
+﻿D:\Visual Studio 2022\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(510,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (Лаба 14.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  Лаба 14.1.cpp
+D:\_УЧЁБА_\Лабораторные работы\ОАП (Белодед)\Лаба 14\Лаба 14\Лаба 14.1.cpp(6,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\Visual Studio 2022\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(1087,5): error MSB6006: "link.exe" завершилась с кодом 1168.
+LINK : fatal error LNK1168: не удается открыть D:\_УЧЁБА_\Лабораторные работы\ОАП (Белодед)\Лаба 14\Debug\Лаба 14.1.exe для записи

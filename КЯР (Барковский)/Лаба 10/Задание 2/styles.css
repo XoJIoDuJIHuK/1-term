@@ -1,0 +1,49 @@
+﻿@media (min-width: 561px) {
+    li {
+        display: inline-block;
+        border: 1px solid black;
+        padding: 5px 15px 5px 15px;
+        background-color: yellow;
+        color: blue;
+    }
+}
+
+@media (max-width: 560px) {
+    .nav ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+
+    .nav > ul > li {
+        float: left;
+        width: 180px;
+        position: relative;
+    }
+
+    .nav li a {
+        display: block;
+        background: yellow;
+        color: blue;
+        border: 1px solid black;
+        padding: 8px;
+        text-decoration: none;
+    }
+
+    .nav li .second {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+    }
+
+    .nav li:hover .second {
+        display: block;
+        color: blue;
+    }
+
+    .nav li li {
+        width: 180px;
+    }
+
+}

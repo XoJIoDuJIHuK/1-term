@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" 
+href="xsl.xsl"?>
+<main>
+	<weapon>
+		<name>
+			Flatline
+		</name>
+		<dam>
+			40
+		</dam>
+		<rec>
+			2.0
+		</rec>
+		<num>
+			30
+		</num>
+	</weapon>
+
+	<weapon>
+		<name>
+			R-99
+		</name>
+		<dam>
+			30
+		</dam>
+		<rec>
+			1.5
+		</rec>
+		<num>
+			48
+		</num>
+	</weapon>
+
+	<weapon>
+		<name>
+			Kraber
+		</name>
+		<dam>
+			150
+		</dam>
+		<rec>
+			3.0
+		</rec>
+		<num>
+			4
+		</num>
+	</weapon>
+</main>

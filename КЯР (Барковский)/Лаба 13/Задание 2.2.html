@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head></head>
+<body>
+    <p id="name"></p>
+    <p id="countries"></p>
+    <p id="year"></p>
+    <p id="director"></p>
+    <script>
+        txt = "<film>";
+        txt = txt + "<name>Snatch</name>";
+        txt = txt + "<countries>UK, USA</countries>";
+        txt = txt + "<year>2000</year>";
+        txt = txt + "<director>Guy Ritchie</director>";
+        txt = txt + "</film>";
+        if (window.DOMParser) {
+            parser = new DOMParser();
+            xmlDoc = parser.parseFromString(txt, "text/xml");
+        }
+        else {
+            xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+            xmlDoc.async = false;
+            xmlDoc.loadXML(txt);
+        }
+        document.getElementById("name").innerHTML = xmlDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue;
+        document.getElementById("countries").innerHTML = xmlDoc.getElementsByTagName("countries")[0].childNodes[0].nodeValue;
+        document.getElementById("year").innerHTML = xmlDoc.getElementsByTagName("year")[0].childNodes[0].nodeValue;
+        document.getElementById("director").innerHTML = xmlDoc.getElementsByTagName("director")[0].childNodes[0].nodeValue;
+    </script>
+</body>
+</html>

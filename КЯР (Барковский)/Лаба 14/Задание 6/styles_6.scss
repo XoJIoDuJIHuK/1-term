@@ -1,0 +1,23 @@
+//colors
+$color_japanese_laurel_approx: green;
+$yellow: #ff0;
+
+//fonts
+$font_0: impact;
+
+.color_green {
+	color: $color_japanese_laurel_approx;
+}
+.bold {
+	font-weight: 700;
+}
+.italic {
+	font-style: italic;
+}
+.impact {
+	font-family: $font_0;
+}
+.yell_under {
+	text-decoration: underline;
+	text-decoration-color: $yellow;
+}

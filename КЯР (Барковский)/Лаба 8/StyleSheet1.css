@@ -1,0 +1,273 @@
+﻿body {
+    background-color: yellow;
+}
+
+.zad_3 {
+    height: 300px;
+    width: 300px;
+    font-size: 26px;
+    text-align: center;
+    color: red;
+    transition: color 20s linear;
+    background-color: white;
+}
+
+div:hover {
+    color: blue;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+/*h1 {
+    text-align: center;
+    animation: h alternate 1s linear infinite;
+}*/
+
+.aa:hover {
+    transform: scale(0.5);
+}
+
+.ab {
+    transform: rotate(45deg);
+}
+
+.ac {
+    transform: translate(50px);
+}
+
+.ad:hover {
+    transform: skew(-20deg)
+}
+
+.ba {
+    transform-origin: 50% 100%;
+    transform: perspective(400px) rotateX(30deg);
+}
+
+.bb {
+    transform-origin: 0 50%;
+    transform: perspective(400px) rotateY(30deg);
+}
+
+.bc {
+    transform-origin: 50% 0;
+    transform: perspective(400px) rotateX(30deg);
+}
+
+.bd {
+    transform-origin: 0 50%;
+    transform: perspective(400px) rotateY(-30deg);
+}
+
+.da {
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+    position: absolute;
+}
+
+    .da div {
+        width: 300px;
+        height: 300px
+    }
+
+    .da img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .da .dc {
+        opacity: 0%;
+        position: absolute;
+        left: 0%;
+        animation: fromleft 5s linear infinite;
+    }
+
+    .da .dd {
+        opacity: 0%;
+        position: absolute;
+        left: 0%;
+        animation: fromleft 5s linear 1s infinite;
+    }
+
+    .da .de {
+        opacity: 0%;
+        position: absolute;
+        left: 0%;
+        animation: fromleft 5s linear 2s infinite;
+    }
+
+    .da .df {
+        opacity: 0%;
+        position: absolute;
+        left: 0%;
+        animation: fromleft 5s linear 3s infinite;
+    }
+
+    .da .dg {
+        opacity: 0%;
+        position: absolute;
+        left: 0%;
+        animation: fromleft 5s linear 4s infinite;
+    }
+
+.db {
+    height: 300px;
+}
+
+@keyframes fromleft {
+    0% {
+        left: 0px;
+        z-index: 1;
+        opacity: 0;
+        border-right: 3px solid white;
+    }
+
+    20% {
+        left: 300px;
+        z-index: -1;
+        opacity: 100%;
+        border-right: 3px solid black;
+        border-left: 3px solid black;
+    }
+
+    40% {
+        left: 600px;
+        z-index: -3;
+        opacity: 0;
+        border-left: 3px solid white;
+    }
+
+    100% {
+        left: 0px;
+        z-index: -1;
+        opacity: 0;
+        border-right: 3px solid black;
+    }
+}
+
+.eaa {
+    width: 300px;
+    height: 400px;
+    display: inline;
+}
+
+.ea {
+    width: 300px;
+    height: 300px;
+    animation: ea 100ms linear alternate-reverse infinite;
+}
+
+@keyframes ea {
+    0% {
+        transform: translate(0px);
+    }
+
+    100% {
+        transform: translate(0px, 50px);
+    }
+}
+
+.ebb {
+    width: 400px;
+    height: 300px;
+    display: inline;
+}
+
+.eb {
+    width: 300px;
+    height: 300px;
+    animation: eb 1000ms linear alternate-reverse infinite;
+}
+
+@keyframes eb {
+    0% {
+        transform: translate(0px);
+    }
+
+    100% {
+        transform: translate(200px);
+    }
+}
+
+.ecc {
+    height: 500px;
+    width: 500px;
+    transform: translate(200px);
+}
+
+.ec {
+    width: 300px;
+    height: 300px;
+    animation: ec 1000ms linear infinite;
+}
+
+@keyframes ec {
+    from {
+        transform: rotate(0deg) translateX(150px) rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg) translateX(150px) rotate(-360deg);
+    }
+}
+
+.edd {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+}
+
+.ed {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    animation: ed 1000ms linear infinite;
+}
+
+@keyframes ed {
+    0% {
+        left: 0px;
+        top: 0px;
+        z-index: 1;
+    }
+
+    25% {
+        left: 300px;
+        top: 0px;
+        z-index: 1;
+    }
+
+    50% {
+        left: 300px;
+        top: 300px;
+        z-index: 1;
+    }
+
+    75% {
+        left: 0px;
+        top: 300px;
+        z-index: 1;
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+        z-index: 1;
+    }
+}
+
+@keyframes h {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 80%;
+    }
+}

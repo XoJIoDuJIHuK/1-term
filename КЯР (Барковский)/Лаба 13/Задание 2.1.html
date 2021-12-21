@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head></head>
+<body>
+    <p id="name"></p>
+    <p id="damage"></p>
+    <p id="reload"></p>
+    <script>
+        txt = "<apex>";
+        txt = txt + "<name>Spitfire</name>";
+        txt = txt + "<damage>19/33 DMG</damage>";
+        txt = txt + "<reload>3.31s</reload>";
+        txt = txt + "</apex>";
+        if (window.DOMParser) {
+            parser = new DOMParser();
+            xmlDoc = parser.parseFromString(txt, "text/xml");
+        }
+        else {
+            xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+            xmlDoc.async = false;
+            xmlDoc.loadXML(txt);
+        }
+        document.getElementById("name").innerHTML = xmlDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue;
+        document.getElementById("damage").innerHTML = xmlDoc.getElementsByTagName("damage")[0].childNodes[0].nodeValue;
+        document.getElementById("reload").innerHTML = xmlDoc.getElementsByTagName("reload")[0].childNodes[0].nodeValue;
+    </script>
+</body>
+</html>

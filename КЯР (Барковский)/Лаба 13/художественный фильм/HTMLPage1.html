@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+    <p id="manga"></p>
+    <p id="author"></p>
+    <p id="release"></p>
+    <script>
+        txt="<info>";
+        txt=txt+"<manga>Berserk</manga>";
+        txt=txt+"<author>Kentaro Miura</author>";
+        txt=txt+"<release>1989</release>";
+        txt=txt+"</info>";
+        if(window.DOMParser){
+            parser = new DOMParser();
+            xmlDoc = parser.parseFromString(txt,"text/xml");
+        }
+        else{
+            xmlDoc= new ActiveXObject("Microsoft.XMLDOM");
+            xmlDoc.async=false;
+            xmlDoc.loadXML(txt);
+        }
+        document.getElementById("manga").innerHTML = xmlDoc.getElementsByTagName("manga")[0].childNodes[0].nodeValue;
+        document.getElementById("author").innerHTML = xmlDoc.getElementsByTagName("author")[0].childNodes[0].nodeValue;
+        document.getElementById("release").innerHTML = xmlDoc.getElementsByTagName("release")[0].childNodes[0].nodeValue;
+    </script>
+</body>
+</html>

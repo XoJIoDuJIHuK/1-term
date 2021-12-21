@@ -1,0 +1,30 @@
+﻿.container {
+    width:900px;
+    height:900px;
+}
+
+.kr_line {
+    background: red;
+    height:50px;
+}
+
+.kr_col {
+    background: red;
+    width: 50px;
+}
+
+.cell {
+    width: 100px;
+}
+
+.line {
+    height:100px;
+}
+
+.line:nth-child(even) .cell:nth-child(odd) {
+    background: black;
+}
+
+.line:nth-child(odd) .cell:nth-child(even) {
+    background: black;
+}

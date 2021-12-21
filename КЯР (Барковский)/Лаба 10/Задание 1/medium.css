@@ -1,0 +1,27 @@
+﻿@media (min-width: 480px) and (max-width: 999px) {
+    div {
+        display: flex;
+        flex-wrap: wrap;
+        border: 1px solid black;
+        text-align: center;
+        justify-content: center;
+        margin: 1px 1px 1px 1px;
+    }
+
+    .container {
+        max-width: 760px;
+        border: 0px;
+    }
+
+    .column_1 {
+        width: 100%;
+    }
+
+    .column_2 {
+        width: 32%;
+    }
+
+    .column_3 {
+        width: 49%;
+    }
+}

@@ -1,0 +1,4 @@
+﻿  Лаба 3.1.cpp
+C:\Users\User\Documents\ДА\ОАиП Лабы\Лаба 3\Лаба 3\Лаба 3.1.cpp(4,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+Лаба 3.obj : error LNK2005: _main уже определен в Лаба 3.1.obj
+C:\Users\User\Documents\ДА\ОАиП Лабы\Лаба 3\Debug\Лаба 3.exe : fatal error LNK1169: обнаружен многократно определенный символ - один или более

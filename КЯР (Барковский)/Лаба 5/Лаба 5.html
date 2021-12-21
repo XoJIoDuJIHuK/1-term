@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Блочная модель</title>
+    <style>
+        a, em, span {
+            margin: 5px, 5px, 5px, 5px;
+            padding: 5px, 5px, 5px, 5px;
+            background: #ffa500;
+            border-style:solid;
+            border-color:#ff4500;
+        }
+        .div1 {
+            width:50px;
+            height:60px;
+            padding: 10px, 10px, 10px, 10px;
+            margin-top:10px;
+            text-align:center;
+            line-height:60px;
+        }
+    </style>
+</head>
+<body>
+    <div style="overflow:hidden">
+        <div style="width: 1000%" >
+            <div class="div1" style="float:left;border-width:thick;border-color:rgb(255, 0, 0);border-style:solid">R</div>
+            <div class="div1" style="float: left; border-width: thick; border-color: rgb(0, 255, 0); border-style: dashed">G</div>
+            <div class="div1" style="float: left; border-width: thick; border-color: rgb(0, 0, 255); border-style: dotted">B</div>
+            <div class="div1" style="float: left; border-width: thick; border-color: rgb(0, 255, 255); border-style: double">C</div>
+            <div class="div1" style="float: left; border-width: thick; border-color: rgb(255, 0, 255); border-style: groove">M</div>
+            <div class="div1" style="float: left; border-width: thick; border-color: rgb(255, 255, 0); border-style: ridge">Y</div>
+            <div class="div1" style="float:left;border-width: thick; border-color: rgb(0, 0, 0); border-style: inset">K</div>
+        </div>
+    </div>
+    <p style="margin:auto;width:400px;text-align:center;border-style:solid;border-color:#ff7f50;">
+        <em>Почему так произошло?</em> Дело в том, что свойство vertical-align влияет на выравнивание самого элемента, а не его содержимого (кроме случаев, когда оно применяется к ячейкам таблицы). Поэтому применение данного свойства к внешнему элементу ничего не дало. Более того, применение этого свойства к внутреннему элементу также ничего не даст, поскольку строчные блоки (inline-block) выравниваются по вертикали относительно соседних блоков, а в нашем случае у нас один строчный блок.
+    </p>
+    <p style="overflow:auto;border-style: solid; border-color: red; border-width: 5px; border-radius: 20px/40px; box-shadow:rgba(0, 0, 0, 5) 2px 2px 8px 8px inset">
+        Очевидный минус данного решения – с точки зрения <a href="https://html5book.ru/html5-semantic-elements/">семантики</a> неправильно применять таблицы для выравнивания. Второй минус в том, что для создания таблицы требуется добавить еще один элемент вокруг внешнего блока.
+    </p>
+    <p style="border-style:solid;border-color:#ff6347">
+        Если известно, что внутренний блок должен занимать не более одной строки текста, то можно воспользоваться свойством <span>line-height</span> и задать его равным высоте внешнего блока. Поскольку контент внутреннего блока не должен переноситься на вторую строку, рекомендуется также добавить правила white-space: nowrap и overflow: hidden.
+    </p>
+    <p style="border-style:solid;border-left-color:brown;border-right-color:darkblue;border-top-color:orange;border-bottom-color:yellow;">Cплошная граница коричневого цвета слева, внизу желтая, справа темно-синяя, вверху оранжевая.</p>
+    <p style="border-style:solid;border-left-color:#007ba7;border-right-color:#007ba7;border-top-color:white;border-bottom-color:white;">Слева и справа сплошная линия #007BA7</p>
+    <p style="border-top-style: solid; border-top-color: rgb(229,43,80); border-left-style: dashed; border-left-color: lightblue; border-right-style: dashed; border-right-color: lightblue; border-bottom-style: dashed; border-bottom-color: lightblue; ">Сплошную граница (229 43 80) сверху, и пунктирную границу голубого цвета слева, справа и снизу.</p>
+    <p style="border-style: dotted; border-color: orange;border-width:1px;">Точечная граница оранжевого цвета 1 пиксель</p>
+    <p style="border-top-style: solid; border-top-color: darkblue; border-bottom-style: solid; border-bottom-color: darkblue; border-top-width: 2px; border-bottom-width: 2px; border-left-style: dashed; border-left-color: rgb(176,0,0); border-right-style: dashed; border-right-color: rgb(176,0,0); ">Граница темно-синего цвета толщиной 2 пикселя сверху и снизу и пунктирную границу  бордового цвета слева и справа</p>
+    <p style="border-style:double;border-color:#b3446c;">Двойная сплошная граница #B3446C цвета</p>
+    <p style="border-top-style: dashed; border-top-color: #808000; border-top-width: 1px; border-bottom-style: solid; border-bottom-color: #ff7518; border-bottom-width: 3px; border-left-color: white; border-right-color: white; ">Пунктирную границу #808000 цвета и толщиной 1 пиксель сверху и сплошную границу #FF7518 цвета толщиной 3 пикселя снизу.</p>
+    <p style="border-left-style: double; border-left-color: #cc7722; border-bottom-style: double; border-bottom-color: #cc7722; border-right-color: white; border-top-color:white ">Двойная сплошная граница #CC7722 цвета слева и внизу</p>
+    <p style="border-right-style: groove; border-top-color: #b5a642; border-top-style: groove; border-top-color: #b5a642;">Граница гребень #B5A642 цвета справа и сверху</p>
+    <p style="border-left: dotted 5px rgb(0,40,0); border-right: dotted 5px rgb(0,40,0); border-bottom: dotted 5px rgb(0,40,0) ">Точечная граница слева, справа, снизу толщиной 5px и (0 40 0) цвета</p>
+    <div style="margin:auto;width:100px">content</div>
+</body>
+</html>

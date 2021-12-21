@@ -1,0 +1,23 @@
+﻿* {
+    display:block;
+}
+
+head {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+mods {
+    font-size: 20px;
+    color: purple;
+}
+
+pros {
+    font-size: 20px;
+    color: green;
+}
+
+cons {
+    font-size: 20px;
+    color: red;
+}

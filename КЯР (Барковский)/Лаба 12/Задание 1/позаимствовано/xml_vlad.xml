@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl"
+href="xsl_vlad.xsl"?>
+<FACULTY>
+	<SPECIALIZATION>
+		<Student>Unknown 1</Student>
+		<English>9</English>
+		<ALBCS>7</ALBCS>
+		<Maths>8</Maths>
+		<BPE>9</BPE>
+		<BAP>6</BAP>
+		<Grammar>7</Grammar>
+		<PE>8</PE>
+		<CLM>8</CLM>
+	</SPECIALIZATION>
+	<SPECIALIZATION>
+		<Student>Unknown 2</Student>
+		<English>9</English>
+		<ALBCS>3</ALBCS>
+		<Maths>6</Maths>
+		<BPE>7</BPE>
+		<BAP>3</BAP>
+		<Grammar>8</Grammar>
+		<PE>9</PE>
+		<CLM>9</CLM>
+	</SPECIALIZATION>
+	<SPECIALIZATION>
+		<Student>Unknown 3</Student>
+		<English>8</English>
+		<ALBCS>4</ALBCS>
+		<Maths>5</Maths>
+		<BPE>6</BPE>
+		<BAP>9</BAP>
+		<Grammar>9</Grammar>
+		<PE>8</PE>
+		<CLM>8</CLM>
+	</SPECIALIZATION>
+</FACULTY>

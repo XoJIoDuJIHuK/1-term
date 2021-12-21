@@ -1,0 +1,36 @@
+﻿@media (max-width:480px) {
+    div {
+        display: flex;
+        flex-wrap: wrap;
+        border: 1px solid black;
+        text-align: center;
+        justify-content: center;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .container {
+        max-width: 480px;
+        border: 0px;
+    }
+
+    .column_1 {
+        width: 100%;
+    }
+
+    .column_2 {
+        width: 32%;
+    }
+
+    .column_3 {
+        width: 49%;
+    }
+
+    figure, img {
+        width:480px;
+        opacity:33%;
+    }
+
+    figcaption {
+        font-size: 12px;
+    }
+}

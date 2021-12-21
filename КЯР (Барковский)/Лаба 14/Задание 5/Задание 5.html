@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="600"
+         height="172">
+        <defs>
+            <linearGradient id="TREU">
+                <stop stop-color="green" offset="0%" />
+                <stop stop-color="orange" offset="100%" />
+            </linearGradient>
+            <radialGradient id="KRUG">
+                <stop offset="0%" stop-color="red" />
+                <stop offset="100%" stop-color="blue" />
+            </radialGradient>
+        </defs>
+        <animate xlink:href="#ellipse"
+                 attributeName="fill"
+                 from="green"
+                 to="white"
+                 dur="1s"
+                 repeatCount="indefinite"
+                 begin="click" />
+        <animate xlink:href="#rect" attributeName="stroke-dasharray" dur="4s" begin="click" repeatCount="indefinite" values="0,314;314,0" fill="freeze" />
+        <animate xlink:href="#tri"
+                 attributeName="stroke"
+                 from="green"
+                 to="white"
+                 dur="1s"
+                 repeatCount="indefinite"
+                 begin="mouseenter" />
+        <polygon id="tri" points="469,118 529,20 589,118" fill="url(#TREU)" stroke-width="3" stroke="yellow" />
+        <rect id="rect" x="136" y="7" width="134" height="101" stroke-width="5px" stroke-dashoffset="314" stroke-dasharray="0, 314"
+              stroke="red" fill="red" />
+        <ellipse id="ellipse" rx="85" ry="45" cx="391" cy="56" stroke="none" fill="green" />
+        <ellipse rx="50" ry="50" cx="74" cy="56" stroke="blue" stroke-width="0" fill="url(#KRUG)" />
+        <polyline points="26,118 289,118 212,158 555,158" fill="none" stroke-width="3" stroke="purple" />
+    </svg>
+</body>
+</html>

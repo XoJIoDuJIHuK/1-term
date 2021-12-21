@@ -1,0 +1,9 @@
+$size: 36px;
+$font: Calibri;
+$align: center;
+
+* {
+    font-size: $size;
+    font-family: $font;
+    text-align: $align;
+}

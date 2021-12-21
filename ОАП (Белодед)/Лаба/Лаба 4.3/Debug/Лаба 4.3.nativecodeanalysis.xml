@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\User\Documents\ДА\ОАиП Лабы\Лаба\Лаба 4.3\</FILEPATH>
+      <FILENAME>Лаба 4.3.cpp</FILENAME>
+      <LINE>16</LINE>
+      <COLUMN>29</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Использование неинициализированной памяти "x1".</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>2</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\User\Documents\ДА\ОАиП Лабы\Лаба\Лаба 4.3\</FILEPATH>
+        <FILENAME>Лаба 4.3.cpp</FILENAME>
+        <LINE>5</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\User\Documents\ДА\ОАиП Лабы\Лаба\Лаба 4.3\</FILEPATH>
+        <FILENAME>Лаба 4.3.cpp</FILENAME>
+        <LINE>6</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\User\Documents\ДА\ОАиП Лабы\Лаба\Лаба 4.3\</FILEPATH>
+        <FILENAME>Лаба 4.3.cpp</FILENAME>
+        <LINE>6</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\User\Documents\ДА\ОАиП Лабы\Лаба\Лаба 4.3\</FILEPATH>
+        <FILENAME>Лаба 4.3.cpp</FILENAME>
+        <LINE>6</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\User\Documents\ДА\ОАиП Лабы\Лаба\Лаба 4.3\</FILEPATH>
+        <FILENAME>Лаба 4.3.cpp</FILENAME>
+        <LINE>6</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>объявление</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Инициализация "x1" не выполнена</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\User\Documents\ДА\ОАиП Лабы\Лаба\Лаба 4.3\</FILEPATH>
+        <FILENAME>Лаба 4.3.cpp</FILENAME>
+        <LINE>6</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\User\Documents\ДА\ОАиП Лабы\Лаба\Лаба 4.3\</FILEPATH>
+        <FILENAME>Лаба 4.3.cpp</FILENAME>
+        <LINE>6</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\User\Documents\ДА\ОАиП Лабы\Лаба\Лаба 4.3\</FILEPATH>
+        <FILENAME>Лаба 4.3.cpp</FILENAME>
+        <LINE>7</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\User\Documents\ДА\ОАиП Лабы\Лаба\Лаба 4.3\</FILEPATH>
+        <FILENAME>Лаба 4.3.cpp</FILENAME>
+        <LINE>7</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\User\Documents\ДА\ОАиП Лабы\Лаба\Лаба 4.3\</FILEPATH>
+        <FILENAME>Лаба 4.3.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\User\Documents\ДА\ОАиП Лабы\Лаба\Лаба 4.3\</FILEPATH>
+        <FILENAME>Лаба 4.3.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\User\Documents\ДА\ОАиП Лабы\Лаба\Лаба 4.3\</FILEPATH>
+        <FILENAME>Лаба 4.3.cpp</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\User\Documents\ДА\ОАиП Лабы\Лаба\Лаба 4.3\</FILEPATH>
+        <FILENAME>Лаба 4.3.cpp</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\User\Documents\ДА\ОАиП Лабы\Лаба\Лаба 4.3\</FILEPATH>
+        <FILENAME>Лаба 4.3.cpp</FILENAME>
+        <LINE>10</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\User\Documents\ДА\ОАиП Лабы\Лаба\Лаба 4.3\</FILEPATH>
+        <FILENAME>Лаба 4.3.cpp</FILENAME>
+        <LINE>11</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>ветвь</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Войти в эту ветвь (предполагается "d&lt;0.000000")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\User\Documents\ДА\ОАиП Лабы\Лаба\Лаба 4.3\</FILEPATH>
+        <FILENAME>Лаба 4.3.cpp</FILENAME>
+        <LINE>12</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\User\Documents\ДА\ОАиП Лабы\Лаба\Лаба 4.3\</FILEPATH>
+        <FILENAME>Лаба 4.3.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\User\Documents\ДА\ОАиП Лабы\Лаба\Лаба 4.3\</FILEPATH>
+        <FILENAME>Лаба 4.3.cpp</FILENAME>
+        <LINE>16</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\User\Documents\ДА\ОАиП Лабы\Лаба\Лаба 4.3\</FILEPATH>
+        <FILENAME>Лаба 4.3.cpp</FILENAME>
+        <LINE>16</LINE>
+        <COLUMN>26</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>объявление</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>"x1" является аргументом ввода-вывода для "std::basic_ostream&lt;char,std::char_traits&lt;char&gt; &gt;::&lt;&lt;" (объявлено в c:\program files (x86)\microsoft visual studio\2019\community\vc\tools\msvc\14.29.30133\include\ostream: 404)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\User\Documents\ДА\ОАиП Лабы\Лаба\Лаба 4.3\</FILEPATH>
+        <FILENAME>Лаба 4.3.cpp</FILENAME>
+        <LINE>17</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\User\Documents\ДА\ОАиП Лабы\Лаба\Лаба 4.3\</FILEPATH>
+        <FILENAME>Лаба 4.3.cpp</FILENAME>
+        <LINE>17</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\User\Documents\ДА\ОАиП Лабы\Лаба\Лаба 4.3\</FILEPATH>
+        <FILENAME>Лаба 4.3.cpp</FILENAME>
+        <LINE>18</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\User\Documents\ДА\ОАиП Лабы\Лаба\Лаба 4.3\</FILEPATH>
+        <FILENAME>Лаба 4.3.cpp</FILENAME>
+        <LINE>16</LINE>
+        <COLUMN>29</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>использование</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"x1" используется, но, возможно, не инициализировано</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

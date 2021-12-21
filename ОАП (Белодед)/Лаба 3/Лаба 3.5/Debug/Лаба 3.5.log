@@ -1,0 +1,26 @@
+﻿Сборка начата 24.09.2021 15:03:03.
+Уровень детализации журнала: Normal.     1>Проект "D:\_УЧЁБА_\Лабораторные работы\ОАП (Белодед)\Лаба 3\Лаба 3.5\Лаба 3.5.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "Debug\Лаба 3.5.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt "Лаба 3.5.cpp"
+         Лаба 3.5.cpp
+     1>D:\_УЧЁБА_\Лабораторные работы\ОАП (Белодед)\Лаба 3\Лаба 3.5\Лаба 3.5.cpp(4,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\_УЧЁБА_\Лабораторные работы\ОАП (Белодед)\Лаба 3\Debug\Лаба 3.5.exe" /INCREMENTAL /ILK:"Debug\Лаба 3.5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\_УЧЁБА_\Лабораторные работы\ОАП (Белодед)\Лаба 3\Debug\Лаба 3.5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\_УЧЁБА_\Лабораторные работы\ОАП (Белодед)\Лаба 3\Debug\Лаба 3.5.lib" /MACHINE:X86 "Debug\Лаба 3.5.obj"
+         Лаба 3.5.vcxproj -> D:\_УЧЁБА_\Лабораторные работы\ОАП (Белодед)\Лаба 3\Debug\Лаба 3.5.exe
+       FinalizeBuildStatus:
+         Файл "Debug\Лаба 3.5.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Лаба 3.5.tlog\Лаба 3.5.lastbuildstate".
+     1>Сборка проекта "D:\_УЧЁБА_\Лабораторные работы\ОАП (Белодед)\Лаба 3\Лаба 3.5\Лаба 3.5.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\_УЧЁБА_\Лабораторные работы\ОАП (Белодед)\Лаба 3\Лаба 3.5\Лаба 3.5.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\_УЧЁБА_\Лабораторные работы\ОАП (Белодед)\Лаба 3\Лаба 3.5\Лаба 3.5.cpp(4,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+
+    Предупреждений: 1
+    Ошибок: 0
+
+Прошло времени 00:00:02.04

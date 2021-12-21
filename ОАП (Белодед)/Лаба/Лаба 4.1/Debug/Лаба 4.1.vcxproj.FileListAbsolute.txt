@@ -1,0 +1,2 @@
+C:\Users\User\Documents\ДА\ОАиП Лабы\Лаба\Debug\Лаба 4.1.exe.lastcodeanalysissucceeded
+C:\Users\User\Documents\ДА\ОАиП Лабы\Лаба\Лаба 4.1\Debug\NativeCodeAnalysis.read.1.tlog

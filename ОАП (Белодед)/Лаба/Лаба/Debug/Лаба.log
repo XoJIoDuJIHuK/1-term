@@ -1,0 +1,7 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (Лаба.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  Лаба 4.cpp
+C:\Users\User\Documents\ДА\ОАиП Лабы\Лаба\Лаба\Лаба 4.cpp(3,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\User\Documents\ДА\ОАиП Лабы\Лаба\Лаба\Лаба 4.cpp(6,22): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\User\Documents\ДА\ОАиП Лабы\Лаба\Лаба\Лаба 4.cpp(6,31): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\User\Documents\ДА\ОАиП Лабы\Лаба\Лаба\Лаба 4.cpp(12,25): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  Лаба.vcxproj -> C:\Users\User\Documents\ДА\ОАиП Лабы\Лаба\Debug\Лаба 4.exe

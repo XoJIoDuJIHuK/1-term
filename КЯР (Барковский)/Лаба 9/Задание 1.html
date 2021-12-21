@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Задание 1</title>
+    <style>
+        div {
+            border: solid 2px black;
+            text-align:center;
+        }
+        .grid {
+            width: 790px;
+            display: grid;
+            grid-template-columns:  20px 40px 40px 40px 40px 40px 40px 40px 40px 20px 40px 40px 40px 40px 40px 40px 40px 40px 20px;
+            grid-template-rows: 30px 30px 20px 190px 190px;
+            grid-gap: 5px;
+        }
+        .h1 {
+            grid-row-start:1;
+            grid-row-end:2;
+            grid-column-start:3;
+            grid-column-end:18;
+        }
+        .h2 {
+            grid-row-start:2;
+            grid-row-end:3;
+            grid-column-start:3;
+            grid-column-end:8;
+        }
+        .h3 {
+            grid-row-start:2;
+            grid-row-end:3;
+            grid-column-start:8;
+            grid-column-end:13;
+        }
+        .h4 {
+            grid-row-start:2;
+            grid-row-end:3;
+            grid-column-start:13;
+            grid-column-end:18;
+        }
+        .h5 {
+            grid-row-start: 4;
+            grid-row-end: 6;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            writing-mode: vertical-lr;
+            text-orientation: upright;
+        }
+        .h6 {
+            grid-row-start: 4;
+            grid-row-end: 6;
+            grid-column-start: 19;
+            grid-column-end: 20;
+            writing-mode: vertical-lr;
+            text-orientation: upright;
+        }
+        .case1 {
+            grid-row-start: 4;
+            grid-row-end: 6;
+            grid-column-start: 2;
+            grid-column-end: 6;
+        }
+        .case2 {
+            grid-row-start: 4;
+            grid-row-end: 6;
+            grid-column-start: 6;
+            grid-column-end: 10;
+        }
+        .case3 {
+            grid-row-start: 4;
+            grid-row-end: 6;
+            grid-column-start: 11;
+            grid-column-end: 15;
+        }
+        .case4 {
+            grid-row-start: 4;
+            grid-row-end: 5;
+            grid-column-start: 15;
+            grid-column-end: 19;
+            
+        }
+        .case5 {
+            grid-row-start: 5;
+            grid-row-end: 6;
+            grid-column-start: 15;
+            grid-column-end: 19;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="h1">Лабораторная работа №9</div>
+        <div class="h2">Структура документа</div>
+        <div class="h3">Тег html</div>
+        <div class="h4">DOM</div>
+        <div class="h5">Основные теги</div>
+        <div class="case1">Раздел head содержит техническую информацию о странице: заголовок, описание, ключевые слова для поисковых машин, кодировку и т.д. Введенная в нем информация не отображается в окне браузера, однако содержит данные, которые указывают браузеру, как следует обрабатывать страницу</div>
+        <div class="case2">Раздел html вляется корневым элементом документа. Все остальные элементы содержатся внутри него. Все, что находится за пределами элемента, не воспринимается браузером как HTML-код и никак им не обрабатывается</div>
+        <div class="case3">Обязательным элементом раздела head является title. Текст, заключённый в нём, отображается в качестве заголовка страницы.
+        Meta - необязательный элемент раздела head. С его помощью можно задать описание содержимого страницы и ключевые слова для поисковых машин, автора HTML-документа и прочие свойства метаданных.</div>
+        <div class="case4">Для тега html доступны такие атрибуты, как contenteditable, dir, lang, translate и т.д., а также manifest, с помощью которого указывается путь к документу кэша манифеста</div>
+        <div class="case5">Элементы, находящиеся внутри элемента html, образуют дерево документа, так называемую объектную модель документа, DOM</div>
+        <div class="h6">Структура документа</div>
+    </div>
+</body>
+</html>

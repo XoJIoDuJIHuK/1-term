@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "6d02e585-cb6d-4144-b762-b560692bd460": {
+      "ProjectGuid": "6d02e585-cb6d-4144-b762-b560692bd460",
+      "DisplayName": "часы",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
