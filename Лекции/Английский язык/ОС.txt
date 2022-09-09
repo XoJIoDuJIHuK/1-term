@@ -1,0 +1,27 @@
+Windows 8 - это операционная система семейства Windows NT. Она была выпущена в 2012 году и разошлась тиражом около ста миллионов лицензий.
+В данный момент её поддержка прекращена. От своих предшественников и последователей она отличается интерфейсом: Microsoft применила новый
+стиль "Metro", который походил по функциональности на рабочий стол Windows 7 (при помощи него можно было запускать приложения, открывать
+папки и так далее), но был ориентирован больше на сенсорный экран. Из нововведений в Windows 8 появился Microsoft Store: единственное место,
+откуда можно было загрузить Metro-приложения и приложения для рабочего стола - использование картинки в качестве пароля, Internet Explorer 10,
+переработанный проводник и диспетчер задач, усовершенствованный поиск и переключение раскладки при помощи Win+Space/Shift+Alt.
+В 2010 году произошла утечка презентации с информацией о функциях Windows 8. В 2011 году она была официально представлена, а в 2012 - выпущена.
+За месяц было продано 40 миллионов копий, старт продаж был оценен аналитиками как слабый. Продажи росли втрое медленнее, чем у Windows 7.
+Не исправляло ситуацию даже то, что вместе с Windows 8 в продажу поступили Surface, совмещавшие в себе черты настольных и планшетных ПК и работавшие под
+Windows 8.
+Windows 8 подвергалась критике из-за своего интерфейса, в частности, пользователи не могли либо не хотели изменять стандартное расположение элементов
+на рабочем столе, не могли найти кнопки выключения и перезагрузки. Впоследствии была выпущена Windows 8.1, расширенная поддержка которой закончится
+только через год. Windows 8 не удалось превзойти своих предшественников из-за просчётов в дизайне и маркетинге.
+
+Windows 8 is an operating system of the Windows NT family. It was released in 2012 and sold about one hundred million licenses.
+At the moment, its support has been discontinued. It differs from its predecessors and followers in its interface: Microsoft applied a new
+"Metro" style, which was similar in functionality to the Windows 7 desktop (with the help of it it was possible to launch applications, open
+folders, and so on), but was focused more on the touch screen. Of the innovations in Windows 8, the Microsoft Store appeared: the only place,
+from where it was possible to download Metro applications and desktop applications - using an image as a password, Internet Explorer 10,
+redesigned Explorer and task manager, improved search and layout switching using Win+Space/Shift+Alt.
+In 2010, there was a leak of a presentation with information about the functions of Windows 8. In 2011, it was officially presented, and in 2012 it was 
+released. 40 million copies were sold in a month, the start of sales was estimated by analysts as weak. Sales grew three times slower than Windows 7.
+It did not even fix the situation that, along with Windows 8, Surface went on sale, combining the features of desktop and tablet PCs and working under
+Windows 8.
+Windows 8 was criticized because of its interface, in particular, users could not or did not want to change the standard layout of elements
+on the desktop, could not find the shutdown and restart buttons. Subsequently, Windows 8.1 was released, extended support for which will end
+only in a year. Windows 8 failed to surpass its predecessors due to design and marketing failures.

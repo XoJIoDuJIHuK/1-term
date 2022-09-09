@@ -1,0 +1,7 @@
+Today i want to introduce you a very helpful service for lazy students - Calligraphr. This service allows you to create
+your own font and use it. This opens up a lot of possibilities, for example you may type your studying notes on your
+laptop or phone and then print it in a copybook, and when time to submit for check comes you will have full notes
+without lots of hand work. Also you may make cheat sheets look like they were written by hand.So, to create your own
+font, you have to create a template which contains neccessary literals, print it, fill every cell by hand, scan it 
+and download font file. But life is cruel, so you may create a template with only 70 literals without subscription,
+which makes it less comfortable
